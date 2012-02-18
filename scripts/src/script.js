@@ -35,6 +35,27 @@ function main() {
 }
 
 
+function registerTweets(s, q) {
+	var tweetarr = [];
+	var numtweets = 0;
+	var Love_count = 0;
+	s.register(function(tweet) {
+
+       if(tweet.text.match(/\slove\s/i)) {
+	Love_count = Love_count+1;
+	}
+	else if(tweet.text.match(/\sdon't\slike\s/i)) {
+	Love_count = Love_count-1;
+	}
+	else if(tweet.text.match(/\slike\s/i)) {
+	Love_count = Love_count+1;
+	}
+	else if(tweet.text.match(/\shate\s/i)) {
+	Love_count = Love_count-1;
+	}
+
+
+
 
 
 
