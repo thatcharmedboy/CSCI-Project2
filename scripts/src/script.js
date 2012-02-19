@@ -56,6 +56,15 @@ function registerTweets(s, q) {
 
 
 
+	if(Love_count > 0){
+		var arrow = "<img src='uparrow2.png' alt='uparrow' />";
+	}
+	else if (Love_count === 0){
+		var arrow = "<img src='naught2.png'alt='nominal' />";
+	}
+	else if (Love_count < 0){
+		var arrow = "<img src='downarrow2.png'alt='nominal' />";
+	}
 
 
 

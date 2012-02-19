@@ -1,0 +1,29 @@
+.body{
+	background:#000000;
+}
+
+.h1{
+	text-color:#ffffff;
+}
+
+
+.top{
+	background:#ffffff;
+}
+
+.middle{
+	background:#000000;
+	height:350px;
+	max-height:350px;
+	min-height:300px;
+}
+
+.topmiddle{
+	background:#000000;
+	height:100px;
+}
+
+.bottommiddle{
+	background:#000000;
+	height:100px;
+}

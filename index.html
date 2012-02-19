@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style2.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="scripts/lib/spotter.js"></script>
     <script src="scripts/src/script.js"></script>
 
   </head>
   <body>
-  	<div id=search>
+<br></br>
+	<div class="row top">
+  	<div class="span7 offset1">
+	<h1>Do people love it or hate it?</h1>
+<br></br>
+  	</div>
+	<div class="span7 offset1">
+	<div id=search>
 	  	<header>
-			<h1>Do people love it or hate it?</h1>
+		
 			<form class=searchbox>
-				Search Twitter:
+				<h3>Find out:
 				<input id=querybox type=text />
 				<input id=searchbutton type=submit value='Search' />
+				</h3>
 			</form>
 		</header>
-		
-		<div id=tweets></div>
+	</div>	
+	</div>	
 	</div>
-    
+	</div>
+	</div>
+
+<div class="row topmiddle"></div>
+<div class="row middle">
+	<div class="span16">
+	<center>
+	<br></br>
+	<div id=tweets ></div>
+	</center>
+</div>
+</div>
+
+<div class="row bottommiddle"></div>
+
+
+<div class="row bottom">
+	<div class="span14 offset2">
+	<br></br>
+	<h1> About This Site:</h1> 
+	<p> This site indicates (although not entirely accurate) weather people are tweeting negatively, or positively about the subject you search. If the subject is positive, a green arrow indicates that it has more positive tweets than negative. If a red arrow displays, this means that there are more negative tweets than positive. A gray bar indicates that there is no indication wheather people like your subject or not. </p>
+<br></br>
+</div>
+</div>
+
   </body>
 </html>
