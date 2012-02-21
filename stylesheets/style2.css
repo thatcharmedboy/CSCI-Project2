@@ -6,7 +6,6 @@
 	text-color:#ffffff;
 }
 
-
 .top{
 	background:#ffffff;
 }
@@ -26,4 +25,8 @@
 .bottommiddle{
 	background:#000000;
 	height:100px;
+}
+
+.bottom{
+	background:#ffffff;
 }
