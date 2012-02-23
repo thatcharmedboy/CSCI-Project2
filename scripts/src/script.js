@@ -50,13 +50,18 @@ function registerTweets(s, q) {
 	else if(tweet.text.match(/\sadore\s/i)) {
 	Love_count = Love_count+1;
 	}
+	else if(tweet.text.match(/\syummy\s/i)) {
+	Love_count = Love_count+1;
+	}
 	else if(tweet.text.match(/\sdon't\slike\s/i)) {
 	Love_count = Love_count-1;
 	}
 	else if(tweet.text.match(/\sdespise\s/i)) {
 	Love_count = Love_count-1;
 	}
-
+	else if(tweet.text.match(/\sgross\s/i)) {
+	Love_count = Love_count-1;
+	}
 	else if(tweet.text.match(/\shate\s/i)) {
 	Love_count = Love_count-1;
 	}
