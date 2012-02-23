@@ -47,6 +47,9 @@ function registerTweets(s, q) {
 	else if(tweet.text.match(/\sdon't\slike\s/i)) {
 	Love_count = Love_count-1;
 	}
+	else if(tweet.text.match(/\sdespise\s/i)) {
+	Love_count = Love_count-1;
+	}
 	else if(tweet.text.match(/\slike\s/i)) {
 	Love_count = Love_count+1;
 	}
